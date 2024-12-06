@@ -8,7 +8,7 @@ i = 1
 while i < 6:
     numero = int(input('Digite um número: '))
     soma = soma + numero
-    i =i + 1
+    i +=i
 print(soma)
 
 
