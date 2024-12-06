@@ -30,8 +30,3 @@ while True:
 
 for nome in nomes:
     print(nome)
-
-
-print ('----------------------Programa que soma números --------------------------------')
-print()
-
