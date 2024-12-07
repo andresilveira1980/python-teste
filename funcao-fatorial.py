@@ -1,13 +1,13 @@
 def numAnterior(numero):
     return numero - 1
 
-def multiplicador(multiplicando, multiplicador):
+def produto(multiplicando, multiplicador):
     return multiplicando * multiplicador
 
 def fatorialNumero(numero):
     fatorial = 1
     while numero > 0:
-        fatorial = multiplicador(fatorial, numero)
+        fatorial = produto(fatorial, numero)
         numero = numAnterior(numero)
     return fatorial
 
